@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+.header{
+    background-color: gray;
+    padding: 15px 0;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu{
+    list-style-type: none;
+    display: flex;
+    column-gap: 40px;
+}.header-title{
+
+     font-family: 'Lato', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 30px;
+     color: #FFFFFF;
+
+ }
+ .header-item{
+
+     font-family: 'Lato' ,sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 11px;
+     line-height: 17px;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+
+     color: #00D6B4;
+
+ }
+ .build{
+     padding: 226px 0 140px;
+     background: url("../images/buildBg.png") center/cover no-repeat;
+}
+
+ .build-block{
+     text-align: center;
+ }
+
+
+ .build-title{
+     font-family: 'Lato' ,sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 48px;
+     line-height: 53px;
+     color: #FFFFFF;
+     margin-bottom: 29px;
+
+
+}
+
+ .build-btn{
+     border: 1px solid #00D6B4;
+     border-radius: 3px;
+     background: transparent;
+     padding: 10px 26px ;
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 19px;
+     text-transform: uppercase;
+     color: #00D6B4;
+     cursor: pointer;
+ }
+
+ .latest{
+     padding: 49px 0 101px;
+     background: #222222;
+ }
+
+ .latest-title{
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 25px;
+     line-height: 30px;
+     text-align: center;
+     color: #FFFFFF;
+     padding: 33px;
+
+
+
+ }
+
+ .latest-row{
+     display: flex;
+     flex-wrap: wrap;
+     column-gap: 20px;
+     row-gap: 22px;
+
+ }
+
+.latest-card{
+
+}
+.latest-img{
+    width: 100%;
+}
+
+.footer-info {
+    padding: 35px 0;
+    background: #222222;
+    text-align: center;
+
+}
+.footer-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #C2C2C2;
+
+
+}
+.footer-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999999;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
